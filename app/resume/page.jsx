@@ -6,7 +6,7 @@ import {SiTailwindcss , SiNextdotjs , SiMongodb , SiMysql , SiRedux , SiExpress 
 
 const about = {
   title:'About me',
-  Description:"Hello! I’m Abhinav Kumar, a software developer passionate about turning real-life problems into tech solutions. With a keen eye for identifying challenges and a knack for innovation, I thrive on creating effective and practical software solutions. Let's connect and explore how technology can address your needs!",
+  description:"Hello! I’m Abhinav Kumar, a software developer passionate about turning real-life problems into tech solutions. With a keen eye for identifying challenges and a knack for innovation, I thrive on creating effective and practical software solutions. Let's connect and explore how technology can address your needs!",
   info:[
     {fieldName:"Name",fieldValue:"Abhinav Kumar"},
     {fieldName:"Phone",fieldValue:"(+91) 9560197101"},
