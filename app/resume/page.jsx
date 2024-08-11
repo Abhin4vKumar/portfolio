@@ -1,6 +1,5 @@
 "use client";
 
-import { Description } from "@radix-ui/react-dialog";
 import {FaHtml5 , FaCss3 , FaJs , FaReact , FaNodeJs , FaPython , FaPhp} from "react-icons/fa";
 import {SiTailwindcss , SiNextdotjs , SiMongodb , SiMysql , SiRedux , SiExpress , SiGit , SiLua , SiTypescript , SiVisualbasic , SiCplusplus , SiC , SiKotlin , SiElectron} from "react-icons/si";
 
