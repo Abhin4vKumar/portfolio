@@ -6,7 +6,7 @@ import {SiTailwindcss , SiNextdotjs , SiMongodb , SiMysql , SiRedux , SiExpress 
 
 const about = {
   title:'About me',
-  Description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+  Description:"Hello! I’m Abhinav Kumar, a software developer passionate about turning real-life problems into tech solutions. With a keen eye for identifying challenges and a knack for innovation, I thrive on creating effective and practical software solutions. Let's connect and explore how technology can address your needs!",
   info:[
     {fieldName:"Name",fieldValue:"Abhinav Kumar"},
     {fieldName:"Phone",fieldValue:"(+91) 9560197101"},
@@ -20,7 +20,7 @@ const about = {
 const experience = {
   icon:'/assets/resume/badge.svg',
   title:'My experience',
-  description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+  description:"Seasoned software developer with a track record of turning real-life problems into effective tech solutions. Known for delivering practical and innovative results.",
   items:[
     {
       company: "Navikra Tech Solutions",
@@ -33,7 +33,7 @@ const experience = {
 const education = {
   icon:'/assets/resume/cap.svg',
   title:'My education',
-  description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+  description:"Strong educational background supporting my expertise in software development and problem-solving.",
   items:[
     {
       institution: "Delhi Technological University",
@@ -59,7 +59,7 @@ const education = {
 
 const skills = {
   title:"My Skills",
-  description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+  description:"Proficient in a range of technologies and techniques, enabling me to develop effective solutions and tackle diverse challenges.",
   skillList:[
     {
       icon: <SiCplusplus />,
