@@ -12,7 +12,7 @@ const about = {
     {fieldName:"Phone",fieldValue:"(+91) 9560197101"},
     {fieldName:"Experience",fieldValue:"1+ Years"},
     {fieldName:"Email",fieldValue:"abhinavkum4r@gmail.com"},
-    {fieldName:"Freelance",fieldValue:"Available"},
+    // {fieldName:"Freelance",fieldValue:"Available"},
     {fieldName:"Languages",fieldValue:"English , Hindi"},
   ]
 }
