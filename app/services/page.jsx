@@ -7,25 +7,25 @@ const services = [
   {
     num:'01',
     title: 'Web Development',
-    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    description:'Crafting responsive and dynamic websites tailored to your business needs, ensuring a seamless user experience across all devices.',
     href:""
   },
   {
     num:'02',
     title: 'Desktop App Development',
-    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    description:'Building robust and efficient desktop applications that enhance productivity and meet specific functional requirements for your business.',
     href:""
   },
   {
     num:'03',
     title: 'Android App Development',
-    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    description:'Creating intuitive and engaging mobile apps for both Android and iOS platforms, designed to captivate users and drive growth.',
     href:""
   },
   {
     num:'04',
     title: 'iOS App Development',
-    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    description:'Specializing in developing high-quality iOS apps that leverage the latest features of Apple’s ecosystem, ensuring optimal performance and user satisfaction.',
     href:""
   },
 ]
