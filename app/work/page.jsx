@@ -24,8 +24,38 @@ const projects = [
     num:'01',
     category:'Backend + Integration',
     title:"Bhartiya Kanoon",
-    description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    description:"Created a Decentralized web platform for Secure Document Storage of Legal Records . It utilizes NFT - based file storage and Solidity smart contracts to prevent document forgery , streamline verification , and manage control .",
     stack:[
+      {
+        name:"React"
+      },
+      {
+        name:"NodeJs"
+      },
+      {
+        name:"ExpressJs"
+      },
+      {
+        name:"Blockchain"
+      },
+      {
+        name:"Polygon"
+      },
+      {
+        name:"MetaMask"
+      },
+      {
+        name:"MongoDB"
+      },
+      {
+        name:"NFT"
+      },
+      {
+        name:"Redux"
+      },
+      {
+        name:"Python"
+      },
       {
         name:"Html 5"
       },
@@ -35,20 +65,35 @@ const projects = [
       {
         name:"Javascript"
       },
-      {
-        name:"React"
-      },
     ],
-    image:'/assets/work/thumb1.png',
-    live:"",
-    github:"",
+    image:'/assets/work/bhartiya-kanoon.png',
+    live:"https://bhartiyakanoon.vercel.app/",
+    github:"https://github.com/Abhin4vKumar/Bhartiya-Kanoon",
   },
   {
     num:'02',
     category:'Full-Stack Application',
     title:"Neon Blogs",
-    description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    description:"Developed and launched a dynamic blog site with user-friendly features, enabling content creation,comments, and likes, fostering a vibrant online community.",
     stack:[
+      {
+        name:"NextJs"
+      },
+      {
+        name:"NodeJs"
+      },
+      {
+        name:"ExpressJs"
+      },
+      {
+        name:"MongoDB"
+      },
+      {
+        name:"Redux"
+      },
+      {
+        name:"TailwindCss"
+      },
       {
         name:"Html 5"
       },
@@ -58,20 +103,29 @@ const projects = [
       {
         name:"Javascript"
       },
-      {
-        name:"React"
-      },
     ],
-    image:'/assets/work/thumb1.png',
-    live:"",
-    github:"",
+    image:'/assets/work/neon-blogs.png',
+    live:"https://neonblogs.vercel.app/",
+    github:"https://github.com/Abhin4vKumar/blogSite",
   },
   {
     num:'03',
     category:'Full-Stack Desktop Application',
-    title:"Markdown Text-Editor",
-    description:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+    title:"Marqy",
+    description:"Marqy is a desktop application that offers real-time markdown editing with instant previews. Its sleek, responsive interface ensures a seamless and intuitive writing experience for all your content creation needs.",
     stack:[
+      {
+        name:"Electron"
+      },
+      {
+        name:"React"
+      },
+      {
+        name:"NodeJs"
+      },
+      {
+        name:"Jotai"
+      },
       {
         name:"Html 5"
       },
@@ -81,16 +135,10 @@ const projects = [
       {
         name:"Javascript"
       },
-      {
-        name:"React"
-      },
-      {
-        name:"Electron"
-      },
     ],
-    image:'/assets/work/thumb1.png',
-    live:"",
-    github:"",
+    image:'/assets/work/marqy.png',
+    live:"https://github.com/Abhin4vKumar/Marqy",
+    github:"https://github.com/Abhin4vKumar/Marqy",
   },
   
 ]
@@ -115,10 +163,11 @@ const Work = () => {
                   {project.num}
                 </div>
                 <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                  {project.category} project
+                  {project.title}
                 </h2>
+                <p className="text-white/60">{project.category}</p>
                 <p className="text-white/60">{project.description}</p>
-                <ul className="flex gap-4">
+                <ul className="flex gap-4 flex-wrap">
                   {project.stack.map((item,index)=>{
                     return(
                       <li key={index} className="text-xl text-accent">
@@ -130,7 +179,7 @@ const Work = () => {
                 </ul>
                 <div className="border border-white/20"></div>
                 <div className="flex items-center gap-4">
-                  <Link href={project.live}>
+                  <Link href={project.live} className="pb-4">
                     <TooltipProvider>
                       <Tooltip>
                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -142,7 +191,7 @@ const Work = () => {
                       </Tooltip>
                     </TooltipProvider>
                   </Link>
-                  <Link href={project.github}>
+                  <Link href={project.github} className="pb-4">
                     <TooltipProvider>
                       <Tooltip>
                         <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
