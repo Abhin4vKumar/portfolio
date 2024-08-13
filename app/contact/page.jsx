@@ -23,8 +23,19 @@ const info = [
 ]
 import {motion} from "framer-motion";
 import sendMail from "../actions/sendMail";
+import { useRef } from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 const Contact = () => {
+    const {toast} = useToast();
+    const formRef = useRef(null);
+    const actionFunction = async (data)=>{
+      const res = await sendMail(data);
+      toast(res.message)
+      if(res.success){
+        formRef.current.reset();
+      }
+    }
     return (
       <motion.section
         initial={{opacity:0}}
@@ -34,7 +45,7 @@ const Contact = () => {
         <div className="container mx-auto">
           <div className="flex flex-col xl:flex-row gap-[30px]">
             <div className="xl:w-[54%] order-2 xl:order-none">
-              <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" action={sendMail}>
+              <form ref={formRef} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" action={actionFunction}>
                 <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
                 <p className="text-white/60">Got a project or just want to connect ? Reach out, and let&apos;s make it happen!</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
