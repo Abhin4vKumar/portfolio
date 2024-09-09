@@ -24,7 +24,7 @@ const experience = {
     {
       company: "Navikra Tech Solutions",
       position: "Software Developer Intern",
-      duration: "June 2024 - Present"
+      duration: "June 2024 - August 2024"
     }
   ]
 }
