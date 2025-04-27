@@ -49,14 +49,14 @@ const experience = {
     "Seasoned software developer with a track record of turning real-life problems into effective tech solutions. Known for delivering practical and innovative results.",
   items: [
     {
-      company: "Navikra Tech Solutions",
-      position: "Software Developer Intern",
-      duration: "June 2024 - August 2024",
-    },
-    {
       company: "Infollion Research Services",
       position: "Software Engineer Intern",
       duration: "January 2025 - Present",
+    },
+    {
+      company: "Navikra Tech Solutions",
+      position: "Software Developer Intern",
+      duration: "June 2024 - August 2024",
     },
   ],
 };
