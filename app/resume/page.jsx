@@ -1,272 +1,344 @@
 "use client";
 
-import {FaHtml5 , FaCss3 , FaJs , FaReact , FaNodeJs , FaPython , FaPhp} from "react-icons/fa";
-import {SiTailwindcss , SiNextdotjs , SiMongodb , SiMysql , SiRedux , SiExpress , SiGit , SiLua , SiTypescript , SiVisualbasic , SiCplusplus , SiC , SiKotlin , SiElectron} from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaPython,
+  FaPhp,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMongodb,
+  SiMysql,
+  SiRedux,
+  SiExpress,
+  SiGit,
+  SiLua,
+  SiTypescript,
+  SiVisualbasic,
+  SiCplusplus,
+  SiC,
+  SiKotlin,
+  SiElectron,
+  SiMui,
+  SiPostman,
+} from "react-icons/si";
 
 const about = {
-  title:'About me',
-  description:"Hello! I’m Abhinav Kumar, a software developer passionate about turning real-life problems into tech solutions. With a keen eye for identifying challenges and a knack for innovation, I thrive on creating effective and practical software solutions. Let's connect and explore how technology can address your needs!",
-  info:[
-    {fieldName:"Name",fieldValue:"Abhinav Kumar"},
-    {fieldName:"Phone",fieldValue:"(+91) 9560197101"},
-    {fieldName:"Experience",fieldValue:"1+ Years"},
-    {fieldName:"Email",fieldValue:"abhinavkum4r@gmail.com"},
+  title: "About me",
+  description:
+    "Hello! I’m Abhinav Kumar, a software developer passionate about turning real-life problems into tech solutions. With a keen eye for identifying challenges and a knack for innovation, I thrive on creating effective and practical software solutions. Let's connect and explore how technology can address your needs!",
+  info: [
+    { fieldName: "Name", fieldValue: "Abhinav Kumar" },
+    { fieldName: "Phone", fieldValue: "(+91) 9560197101" },
+    { fieldName: "Experience", fieldValue: "1+ Years" },
+    { fieldName: "Email", fieldValue: "abhinavkum4r@gmail.com" },
     // {fieldName:"Freelance",fieldValue:"Available"},
-    {fieldName:"Languages",fieldValue:"English , Hindi"},
-  ]
-}
+    { fieldName: "Languages", fieldValue: "English , Hindi" },
+  ],
+};
 
 const experience = {
-  icon:'/assets/resume/badge.svg',
-  title:'My experience',
-  description:"Seasoned software developer with a track record of turning real-life problems into effective tech solutions. Known for delivering practical and innovative results.",
-  items:[
+  icon: "/assets/resume/badge.svg",
+  title: "My experience",
+  description:
+    "Seasoned software developer with a track record of turning real-life problems into effective tech solutions. Known for delivering practical and innovative results.",
+  items: [
     {
       company: "Navikra Tech Solutions",
       position: "Software Developer Intern",
-      duration: "June 2024 - August 2024"
-    }
-  ]
-}
+      duration: "June 2024 - August 2024",
+    },
+    {
+      company: "Infollion Research Services",
+      position: "Software Engineer Intern",
+      duration: "January 2025 - Present",
+    },
+  ],
+};
 
 const education = {
-  icon:'/assets/resume/cap.svg',
-  title:'My education',
-  description:"Strong educational background supporting my expertise in software development and problem-solving.",
-  items:[
+  icon: "/assets/resume/cap.svg",
+  title: "My education",
+  description:
+    "Strong educational background supporting my expertise in software development and problem-solving.",
+  items: [
     {
       institution: "Delhi Technological University",
       degree: "B.Tech (Information Technology)",
-      score:"8.11 / 10",
-      duration: "2021-2025"
+      score: "8.11 / 10",
+      duration: "2021-2025",
     },
     {
       institution: "School of Excellence",
       degree: "Class 12th",
-      score:"92.4 %",
-      duration: "2020-2021"
+      score: "92.4 %",
+      duration: "2020-2021",
     },
     {
       institution: "Vishwa Bharati Public School",
       degree: "Class 10th",
-      score:"86.4 %",
-      duration: "2018-2019"
+      score: "86.4 %",
+      duration: "2018-2019",
     },
-    
-  ]
-}
+  ],
+};
 
 const skills = {
-  title:"My Skills",
-  description:"Proficient in a range of technologies and techniques, enabling me to develop effective solutions and tackle diverse challenges.",
-  skillList:[
+  title: "My Skills",
+  description:
+    "Proficient in a range of technologies and techniques, enabling me to develop effective solutions and tackle diverse challenges.",
+  skillList: [
     {
       icon: <SiCplusplus />,
-      name:"C++",
+      name: "C++",
     },
     {
       icon: <SiC />,
-      name:"C",
+      name: "C",
     },
     {
       icon: <FaPython />,
-      name:"Python",
+      name: "Python",
     },
     {
       icon: <FaJs />,
-      name:"Javascript",
+      name: "Javascript",
     },
     {
       icon: <SiTypescript />,
-      name:"Typescript",
+      name: "Typescript",
     },
     {
       icon: <SiKotlin />,
-      name:"Kotlin",
+      name: "Kotlin",
     },
     {
       icon: <FaReact />,
-      name:"React",
+      name: "React",
     },
     {
       icon: <SiNextdotjs />,
-      name:"Next.js",
+      name: "Next.js",
     },
     {
-      icon:<SiElectron />,
-      name:"Electron.js"
+      icon: <SiElectron />,
+      name: "Electron.js",
     },
     {
       icon: <FaNodeJs />,
-      name:"NodeJs",
+      name: "NodeJs",
     },
     {
       icon: <SiExpress />,
-      name:"Express Js",
+      name: "Express Js",
     },
     {
       icon: <SiTailwindcss />,
-      name:"TailwindCss",
+      name: "TailwindCss",
     },
     {
       icon: <SiRedux />,
-      name:"Redux",
+      name: "Redux",
     },
     {
       icon: <SiGit />,
-      name:"Git",
+      name: "Git",
     },
     {
       icon: <SiMongodb />,
-      name:"MongoDB",
+      name: "MongoDB",
     },
     {
       icon: <SiMysql />,
-      name:"MySQL",
+      name: "MySQL",
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman",
+    },
+    {
+      icon: <SiMui />,
+      name: "Material UI",
     },
     {
       icon: <SiLua />,
-      name:"Lua",
+      name: "Lua",
     },
     {
       icon: <SiVisualbasic />,
-      name:"Visual Basic",
+      name: "Visual Basic",
     },
     {
       icon: <FaHtml5 />,
-      name:"HTML 5",
+      name: "HTML 5",
     },
     {
       icon: <FaCss3 />,
-      name:"CSS 3",
+      name: "CSS 3",
     },
     {
       icon: <FaPhp />,
-      name:"PHP",
+      name: "PHP",
     },
-  ]
-}
+  ],
+};
 
-import {Tabs , TabsContent , TabsList , TabsTrigger} from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-import {Tooltip , TooltipContent , TooltipProvider , TooltipTrigger} from "@/components/ui/tooltip"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 import { ScrollArea } from "@radix-ui/react-scroll-area";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const Resume = () => {
-    return (
-      <motion.div
-        initial={{opacity:0}}
-        animate={{opacity:1, transition:{delay:2.4 , duration:0.4 , ease:"easeIn"},}}
-        className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
-      >
-        <div className="container mx-auto">
-          <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
-            <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-              <TabsTrigger value="experience">Experience</TabsTrigger>
-              <TabsTrigger value="education">Education</TabsTrigger>
-              <TabsTrigger value="skills">Skills</TabsTrigger>
-              <TabsTrigger value="about">About me</TabsTrigger>
-            </TabsList>
-            <div className="min-h-[70vh] w-full">
-              <TabsContent value="experience" className="w-full">
-                <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold">{experience.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                    {experience.description}
-                  </p>
-                  <ScrollArea className="h-[400px]">
-                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                      {experience.items.map((item,index)=>{
-                        return(
-                          <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                            <span className="text-accent">{item.duration}</span>
-                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
-                            <div className="flex items-center gap-3">
-                              <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                              <p className="text-white/60">{item.company}</p>
-                            </div>
-                          </li>
-                        )
-                      })}
-                    </ul>
-                  </ScrollArea>
-                </div>
-              </TabsContent>
-              <TabsContent value="education" className="w-full">
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+      }}
+      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+    >
+      <div className="container mx-auto">
+        <Tabs
+          defaultValue="experience"
+          className="flex flex-col xl:flex-row gap-[60px]"
+        >
+          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+            <TabsTrigger value="experience">Experience</TabsTrigger>
+            <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="skills">Skills</TabsTrigger>
+            <TabsTrigger value="about">About me</TabsTrigger>
+          </TabsList>
+          <div className="min-h-[70vh] w-full">
+            <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                  <h3 className="text-4xl font-bold">{education.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                    {education.description}
-                  </p>
-                  <ScrollArea className="h-[400px]">
-                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                      {education.items.map((item,index)=>{
-                        return(
-                          <li key={index} className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
-                            <span className="text-accent">{item.duration}</span>
-                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
-                            <div className="flex items-center gap-3">
-                              <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                              <p className="text-white/60">{item.institution}</p>
-                            </div>
-                          </li>
-                        )
-                      })}
-                    </ul>
-                  </ScrollArea>
-                </div>
-              </TabsContent>
-              <TabsContent value="skills" className="w-full h-full">
-                <div className="flex flex-col gap-[30px] mb-5">
-                      <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                        <h3 className="text-4xl font-bold">{skills.title}</h3>
-                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
-                      </div>
-                      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                        {skills.skillList.map((skill,index)=>{
-                          return(
-                            <li key={index}>
-                              <TooltipProvider delayDuration={100}>
-                                <Tooltip>
-                                  <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                                    <div className="text-6xl group-hover:text-accent transition-all duration-300">
-                                      {skill.icon}
-                                    </div>
-                                  </TooltipTrigger>
-                                  <TooltipContent>
-                                    <p className="capitalize">{skill.name}</p>
-                                  </TooltipContent>
-                                </Tooltip>
-                              </TooltipProvider>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                </div>
-              </TabsContent>
-              <TabsContent value="about" className="w-full text-center xl:text-left">
-                <div className="flex flex-col gap-[30px]">
-                  <h3 className="text-4xl font-bold">{about.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                  <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]">
-                    {about.info.map((item,index)=>{
+                <h3 className="text-4xl font-bold">{experience.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {experience.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {experience.items.map((item, index) => {
                       return (
-                        <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
-                          <span className="text-white/60">{item.fieldName}</span>
-                          <span className="text-xl">{item.fieldValue}</span>
+                        <li
+                          key={index}
+                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                        >
+                          <span className="text-accent">{item.duration}</span>
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                            {item.position}
+                          </h3>
+                          <div className="flex items-center gap-3">
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">{item.company}</p>
+                          </div>
                         </li>
-                      )
+                      );
                     })}
                   </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+            <TabsContent value="education" className="w-full">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{education.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {education.description}
+                </p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {education.items.map((item, index) => {
+                      return (
+                        <li
+                          key={index}
+                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                        >
+                          <span className="text-accent">{item.duration}</span>
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                            {item.degree}
+                          </h3>
+                          <div className="flex items-center gap-3">
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">{item.institution}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+            <TabsContent value="skills" className="w-full h-full">
+              <div className="flex flex-col gap-[30px] mb-5">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                    {skills.description}
+                  </p>
                 </div>
-              </TabsContent>
-            </div>
-          </Tabs>
-        </div>
-      </motion.div>
-    )
-  }
-  
-  export default Resume
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                  {skills.skillList.map((skill, index) => {
+                    return (
+                      <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                {skill.icon}
+                              </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </TabsContent>
+            <TabsContent
+              value="about"
+              className="w-full text-center xl:text-left"
+            >
+              <div className="flex flex-col gap-[30px]">
+                <h3 className="text-4xl font-bold">{about.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]">
+                  {about.info.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
+                        <span className="text-white/60">{item.fieldName}</span>
+                        <span className="text-xl">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </TabsContent>
+          </div>
+        </Tabs>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Resume;
